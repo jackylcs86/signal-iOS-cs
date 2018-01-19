@@ -52,6 +52,6 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 #define textSecureSetProfileNameAPIFormat @"v1/profile/name/%@"
 #define textSecureProfileAvatarFormAPI @"v1/profile/form/avatar"
 
-#define SignalApplicationGroup @"group.org.whispersystems.signal.group"
+#define SignalApplicationGroup @"group.jacky.signal.group"//@"group.org.whispersystems.signal.group"
 
 #endif

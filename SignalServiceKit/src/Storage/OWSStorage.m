@@ -537,7 +537,7 @@ static NSString *keychainDBPassAccount = @"TSDatabasePass";
         }
 
         // Try to reset app by deleting database.
-        [OWSStorage resetAllStorage];
+//        [OWSStorage resetAllStorage]; // Crashing in singleton
 
         dbPassword = [self createAndSetNewDatabasePassword];
     }
